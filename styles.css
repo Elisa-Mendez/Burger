@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4e6;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.titulo {
+    color: #d62828;
+    font-size: 3rem;
+    transition: all 0.3s ease;
+}
+
+/* Tarea 1 */
+.titulo:hover {
+    color: #f77f00;
+    font-size: 3.2rem;
+    cursor: pointer;
+}
+
+/* Tarea 2 */
+.burger:active {
+    color: #003049;
+    position: relative;
+    top: 3px;
+}
+
+
+.arroz {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #fcbf49;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+#cambiarColor {
+    display: none;
+}
+
+
+.subtitulo {
+    color: #222;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+/* Tarea 4  */
+#cambiarColor:checked ~ .subtitulo {
+    color: #d62828;
+}
+
+/* Tarea 3 */
+.hamburguesa {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
